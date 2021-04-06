@@ -15,4 +15,4 @@ Welcome to discord.wrapper's documentation!
 Indices and tables
 ==================
 
-* :ref:`gettingstarted`
+* :ref:`getting-started`
