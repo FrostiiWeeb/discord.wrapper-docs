@@ -1,0 +1,5 @@
+site_name: discord.wrapper
+nav:
+    - Getting Started: index.md
+    - Gateway Intents: intents.md
+theme: readthedocs
