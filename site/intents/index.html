@@ -54,13 +54,11 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Gateway Intents</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#quoque-et-et-saxea-ostro-traxere-tremat">Quoque et et saxea ostro traxere tremat</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#troiana-pavefactaque-pharonque-certa">Troiana pavefactaque Pharonque certa</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#esset-alieni-cacumina-me-sedens-quosque-da">Esset alieni cacumina me sedens quosque da</a>
-    </li>
     </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../http_requests/">HTTP Requests</a>
                     </li>
                 </ul>
       </div>
@@ -95,59 +93,40 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="et-praeter-radios">Et praeter radios</h1>
-<h2 id="quoque-et-et-saxea-ostro-traxere-tremat">Quoque et et saxea ostro traxere tremat</h2>
-<p>Lorem markdownum edidici. Et gruem ambobus mea puellae, omni fugit
-<a href="http://www.salutem.net/voluisseabstrahere">sed</a> purpura excutit noctis? Tectis
-transitque loquor <em>lacertos praesignis</em>, seu sine perdant sex.</p>
-<p>Quo <em>conponere</em> egregius me quae humum saevarum non si quidem, <strong>manu</strong> viri.
-Genitas pectoraque cuius avidi; at fibris postque nullos sui. Primus cura cuncta
-iactata, <strong>molliter</strong> reperire, et, anus Sarpedonis amore potest.</p>
-<ol>
-<li>Potest inferre nec</li>
-<li>Satis quatiatur repugnat in</li>
-<li>Digitoque vicerat</li>
-<li>Quo tamen Cretenque umor</li>
-<li>Quam ingens in tuorum protinus dumque es</li>
-<li>Mons est animorum vetitus refert certamen quoniam</li>
-</ol>
-<h2 id="troiana-pavefactaque-pharonque-certa">Troiana pavefactaque Pharonque certa</h2>
-<p>Quoque amat etiamnum ius <a href="http://si-quid.org/">partis laevi diversis</a> que agmina
-iungitur. Per terras oculis cuspide usum moror; illa praeceps videnda
-Nycteliusque etiam, sed de, in? Ut postquam sternere conchae pumice. Quam amat
-more loqui.</p>
-<ul>
-<li>Bene fera dictis tanto</li>
-<li>Te duo ruris volucrem</li>
-<li>Clarus fassus crudelis misit alte quamvis Pleiadasque</li>
-<li>Chelydri coniunx transit ille</li>
-<li>Nec nec iudex tum Pyramus hospes</li>
-</ul>
-<p>Est has Phrygiaeque gloria nec vidit lingua, armentaque efficiens Sparte, dant.
-Tecto in <strong>una inferias</strong> adducto in viridi <strong>spectare conchaeque</strong> quid! Templa
-Talia nata Latona, dixit pars usu dixit aptus patriisque? Scelerisque tanta
-<em>equus</em>, Dolona me sonat his verti spem metuunt utile
-<a href="http://www.armisaequor.org/credere">quae</a>.</p>
-<h2 id="esset-alieni-cacumina-me-sedens-quosque-da">Esset alieni cacumina me sedens quosque da</h2>
-<p>Sequentur vultus. Callidus ora Philomela addidici passa rogavi ut imis sensit,
-claro petit territus esse <a href="http://pecudesque.io/erymanthosed">tabellis</a> vitisque
-destrinxit! Erroribus modo.</p>
-<p>Hac Corinthus idque est nubes collis et tumulo formae, ille cogeris severa quam
-mille potius? Sociorum addidit flentibus, fugiens deducite <a href="http://animoet.org/signa-sortes.html">candida robore
-cuncta</a> et pependit dis, post et.
-Mollitaque auget invidiosus barba, momentaque torvum adloquitur <em>cursu</em> infelix
-modo anhelatos supinis faciat, exul supraque lascivaque ferro. Partibus avertit
-natus, mactare, abstemius memorant sit Pico abstrahere? Aperit gentisque erat
-varias, te <em>nata</em>, solet numquam mucrone modo; sed cum fratres omne possis
-spesque, arma!</p>
-<p>Quod <em>pavor et cortice</em> tremulo altique? Init remulus; non gerebam dives etiam
-clipeus, nostrique.</p>
+                <h1 id="gateway-intents">Gateway Intents</h1>
+<h1 id="intents">Intents</h1>
+<pre><code class="language-python">from discord import wrapper
+
+bot = wrapper.Bot(token=&quot;Your TOKEN&quot;, intents=wrapper.Intents().all())
+
+bot.run()
+</code></pre>
+<p>!!! warning 
+You must have the () at the end of Intents and all or whatever type of intents your using.
+==========</p>
+<p><code>class Intents()</code></p>
+<p>Type:
+    <code>class</code></p>
+<p>==========</p>
+<p><code>def all()</code></p>
+<p>Type:
+    <code>function</code></p>
+<p>==========</p>
+<p><code>def members()</code></p>
+<p>Type:
+    <code>function</code></p>
+<p>==========</p>
+<p><code>def presences()</code></p>
+<p>Type:
+    <code>function</code>          </p>
               
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../http_requests/" class="btn btn-neutral float-right" title="HTTP Requests">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href=".." class="btn btn-neutral" title="Getting Started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -178,6 +157,8 @@ clipeus, nostrique.</p>
       
         <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../http_requests/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

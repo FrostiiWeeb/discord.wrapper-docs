@@ -1,5 +1,7 @@
 site_name: discord.wrapper
+site_description: An API wrapper for discord.
 nav:
     - Getting Started: index.md
     - Gateway Intents: intents.md
+    - HTTP Requests: http_requests.md
 theme: readthedocs
