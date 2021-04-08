@@ -1,5 +1,9 @@
 ## Getting Started
 
+## Whats new?
+
+Fixed INVALID SYNTAX error.
+
 ## Basic bot
 
 ```python
