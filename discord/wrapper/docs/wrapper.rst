@@ -1,4 +1,4 @@
-discord.wrapper
+wrapper package
 ===============
 
 Subpackages
